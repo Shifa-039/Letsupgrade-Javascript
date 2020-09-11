@@ -20,5 +20,11 @@ let details= [
     hobbies:["football","cricket","basketball"]
 }
 ];
-        console.log(details)
+        function display(){
+       for(let i=0; i<details.length; i++)
+       {
+        console.log(details[i])
+       }
+    }
+    display();
     
