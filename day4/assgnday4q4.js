@@ -20,6 +20,7 @@ let details= [
         hobbies:["football","cricket","basketball"]
     }
     ];
+     function country(){
     for(let i=0; i<details.length; i++)
     {
         if(details[i].country=="india")
@@ -28,6 +29,9 @@ let details= [
         }
         
     }
+}
+    country();
+    function age(){
     for(let i=0; i<details.length; i++)
     {
         if(details[i].age<30)
@@ -35,3 +39,5 @@ let details= [
         console.log(details[i])
         }
     }
+}
+   age();
